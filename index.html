@@ -4,36 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Curriculum vitae</title>
 </head>
 <body>
     <div class="wrapper">
-        <div id="left-row">
+        <div class="row" id="left-row">
             <div class="name-area">
                 <h1>YOUR NAME</h1>
                 <h2>UI/UX DESIGNER</h2>
             </div>
             <div class="about-me">
-                <img src="" alt="photo of me">
+                <div id="profile-picture"></div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </div>
             <div class="personnal-infos">
-                <div class="info">0123 4567 8900</div>
-                <div class="info">NAME@WEBSITE.COM</div>
-                <div class="info">WWW.WEBSITE.COM</div>
-                <div class="info">STREET NO #0, CITY</div>
+                <div class="info"><span>0123 4567 8900</span></div>
+                <div class="info"><span>NAME@WEBSITE.COM</span></div>
+                <div class="info"><span>WWW.WEBSITE.COM</span></div>
+                <div class="info"><span>NO #0, CITY</span></div>
             </div>
             <div class="languages">
-                <div class="language">ENGLISH</div>
-                <div class="language">RUSSIAN</div>
-                <div class="language">FRENCH</div>
-                <div class="language">ITALIAN</div>
-                <div class="language">GERMAN</div>
+                <div class="language">
+                    <span>ENGLISH</span>
+                    <div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <span>RUSSIAN</span>
+                    <div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <span>FRENCH</span>
+                    <div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note empty"></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <span>ITALIAN</span>
+                    <div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note empty"></div>
+                        <div class="note empty"></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <span>GERMAN</span>
+                    <div>
+                        <div class="note fill"></div>
+                        <div class="note fill"></div>
+                        <div class="note empty"></div>
+                        <div class="note empty"></div>
+                        <div class="note empty"></div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="right-row"">
+        <div class="row right">
             <div class="block">
                 <h3>EDUCATION</h3>
                 <h4>Master in User Experience Design (2012)</h4>
