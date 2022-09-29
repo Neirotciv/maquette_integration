@@ -41,6 +41,8 @@
 .about-me {
     width: 250px;
     height: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.20);
 }
 
