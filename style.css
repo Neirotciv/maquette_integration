@@ -1,1 +1,18 @@
-got
+* {
+    margin: 0;
+}
+.wrapper {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    background-color: red;
+    display: flex;
+}
+
+#left-row {
+    width: 30%;
+}
+
+#right-row {
+    width: 70%;
+}
