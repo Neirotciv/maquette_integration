@@ -68,7 +68,7 @@ h3 {
     align-items: center;
 }
 
-#profile-picture p {
+.profile-picture p {
     width: 67px;
     margin: auto;
     font-size: 11px;
