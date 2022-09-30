@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <title>Curriculum vitae</title>
 </head>
@@ -17,17 +18,35 @@
                 <h1>YOUR NAME</h1>
                 <h2>UI/UX DESIGNER</h2>
             </div>
+
             <div class="about-me">
-                <div id="profile-picture"></div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div class="profile-picture"><p>PLACE YOUR IMAGE HERE</p></div>
+                <div class="about-me__text">
+                    <h3>ABOUT ME</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
             </div>
+
             <div class="personnal-infos">
-                <div class="info"><span>0123 4567 8900</span></div>
-                <div class="info"><span>NAME@WEBSITE.COM</span></div>
-                <div class="info"><span>WWW.WEBSITE.COM</span></div>
-                <div class="info"><span>NO #0, CITY</span></div>
+                <div class="info">
+                    <span class="material-symbols-outlined">call</span>
+                    <span>0123 4567 8900</span></div>
+                <div class="info">
+                    <span class="material-symbols-outlined">mail</span>
+                    <span>NAME@WEBSITE.COM</span>
+                </div>
+                <div class="info">
+                    <span class="material-symbols-outlined">public</span>
+                    <span>WWW.WEBSITE.COM</span>
+                </div>
+                <div class="info">
+                    <span class="material-symbols-outlined">home</span>
+                    <span>NO #0, CITY</span>
+                </div>
             </div>
+            
             <div class="languages">
+                <h3>LANGUAGES</h3>
                 <div class="language">
                     <span>ENGLISH</span>
                     <div>
@@ -83,7 +102,10 @@
 
         <div class="row right">
             <div class="block">
-                <h3>EDUCATION</h3>
+                <div class="title-line">
+                    <h3>EDUCATION</h3>
+                    <div class="blue-line"></div>
+                </div>
                 <h4>Master in User Experience Design (2012)</h4>
                 <h4 class="blue">ABC University</h4>
                 <p>
@@ -101,7 +123,10 @@
                 </p>
             </div>
             <div class="block">
-                <h3>EXPERIENCE</h3>
+                <div class="title-line">
+                    <h3>EXPERIENCE</h3>
+                    <div class="blue-line"></div>
+                </div>
                 <h4 class="blue">Senior UX Designer</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the 
@@ -117,37 +142,63 @@
                 </p>
             </div>
             <div class="block">
-                <h3>MY SKILLS</h3>
-                <div class="card">
-                    <img src="" alt="Adobe Photoshop logo">
-                    Adobe Photoshop
+                <div class="title-line">
+                    <h3>MY SKILLS</h3>
+                    <div class="blue-line"></div>
                 </div>
-                <div class="card">
-                    <img src="" alt="Adobe Illustrator logo">
-                    Adobe Illustrator
-                </div>
-                <div class="card">
-                    <img src="" alt="Adobe InDesign logo">
-                    Adobe InDesign
-                </div>
-                <div class="card">
-                    <img src="" alt="Adobe XD logo">
-                    Adobe XD
+                <div class="skills">
+                    <div class="skills-col">
+                        <div class="card">
+                            <div class="adobe-logo circle__top-right">
+                                <div class="logo-center ps-blue">Ps</div>
+                            </div>
+                            Adobe Photoshop
+                        </div>
+                        <div class="card">
+                            <div class="adobe-logo circle__left">
+                                <div class="logo-center id-red">Id</div>
+                            </div>
+                            Adobe InDesign
+                        </div>
+                    </div>
+                    <div class="skills-col">
+                        <div class="card">
+                            <div class="adobe-logo circle__bottom-left">
+                                <div class="logo-center ai-orange">Ai</div>
+                            </div>
+                            Adobe Illustrator
+                        </div>
+                        <div class="card">
+                            <div class="adobe-logo circle__right">
+                                <div class="logo-center xd-pink">Xd</div>
+                            </div>
+                            Adobe XD
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="block">
-                <h3>HOBBIES</h3>
-                <div class="card">
-                    Reading Books
+                <div class="title-line">
+                    <h3>HOBBIES</h3>
+                    <div class="blue-line"></div>
                 </div>
-                <div class="card">
-                    Basket Ball
-                </div>
-                <div class="card">
-                    Hiking
-                </div>
-                <div class="card">
-                    Listen Musicg
+                <div class="hobbies">
+                    <div class="card">
+                        <span class="material-symbols-outlined">library_books</span>
+                        Reading Books
+                    </div>
+                    <div class="card">
+                        <span class="material-symbols-outlined">sports_basketball</span>
+                        Basket Ball
+                    </div>
+                    <div class="card">
+                        <span class="material-symbols-outlined">hiking</span>
+                        Hiking
+                    </div>
+                    <div class="card">
+                        <span class="material-symbols-outlined">music_note</span>
+                        Listen Musicg
+                    </div>
                 </div>
             </div>
         </div>
